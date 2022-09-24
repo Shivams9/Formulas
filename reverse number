@@ -1,0 +1,10 @@
+#function for reverse interger value
+def reversenum(num):
+    reverse = 0
+    while num > 0:
+        resul = num % 10
+        num = num //10
+        reverse = reverse *10 +resul
+        
+    return reverse
+print(reversenum(2472))  
