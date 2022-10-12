@@ -1,0 +1,13 @@
+a = [1,2,3,4,5,7] #given array
+n = 7             #length deya hai esi k bich jo bhi missing value hai uso print karega
+# def MissingNumber(a,n):
+#     t = n*n(n+1)//2
+#     c = 0
+#     for i in a:
+#         c+=i
+print (n*(n+1)//2 -sum(a))   #n*(n+1)/2 ye total number ka formula hai phir esme se -sum(a) := a mtlb array ko ghta denge
+
+
+
+#output : 6 missing number
+        
